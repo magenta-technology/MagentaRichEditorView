@@ -1,0 +1,54 @@
+{
+  "name": "MagentaRichEditorView",
+  "version": "0.6.0",
+  "summary": "MagentaRichEditorView updated version of RichEditorView",
+  "description": "This pod is updated verions of other pods RichEditorView (https://github.com/cjwirth/RichEditorView) and ZSSRichTextEditor (https://github.com/nnhubbard/ZSSRichTextEditor). Here was replace deprecated API and change toolbar.",
+  "homepage": "http://lab/mobile-development/MagentaRichEditorView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Pavel Volhin": "pavel.volhin@magenta-technology.com"
+  },
+  "source": {
+    "git": "http://lab/mobile-development/MagentaRichEditorView.git",
+    "tag": "0.6.0"
+  },
+  "default_subspecs": "Core",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.2",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "MagentaRichEditorView/Classes/Core/**/*"
+      ],
+      "resource_bundles": {
+        "MagentaRichEditorView": [
+          "MagentaRichEditorView/Assets/Core/editor/*",
+          "MagentaRichEditorView/Assets/Core/icons/*"
+        ]
+      }
+    },
+    {
+      "name": "CustomToolbars",
+      "source_files": [
+        "MagentaRichEditorView/Classes/CustomToolbars/**/*"
+      ],
+      "dependencies": {
+        "MagentaRichEditorView/Core": [
+
+        ]
+      },
+      "resource_bundles": {
+        "MagentaRichEditorViewCustomToolbars": [
+          "MagentaRichEditorView/Assets/CustomToolbars/**/*"
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.2"
+}

@@ -1,0 +1,6 @@
+framework module MagentaRichEditorView {
+  umbrella header "MagentaRichEditorView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0141A778E7A27EA671E47F05FD20FF62 /* OutlookEditorOptionTextParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5E9D689A31AE3F7C3A548619E8E2E /* OutlookEditorOptionTextParams.swift */; };
+		07E0BF2E544C1A089EAAABD1D76A536C /* h1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E852CBCDB6858A75FD7B0FEB0E2600E5 /* h1@2x.png */; };
+		08A822D7E96D26DA86E72C40195DD848 /* RichEditorView+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CF5C33CD5727ECE256F4269C1767A5 /* RichEditorView+Actions.swift */; };
+		0935FEE6333D5DFCD1CD1934DD9DEADA /* MagentaRichEditorViewCustomToolbars.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EBCFF7668F0C0666C453918D19C7820F /* MagentaRichEditorViewCustomToolbars.bundle */; };
+		0C548F79E805CF663758F0FEDB8B4736 /* insert_link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F20A0DB57FF07D79CC95783EF3E89E3 /* insert_link@2x.png */; };
+		100331E00B595BC20A412596F5867C5A /* h3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A940795C8A7FE61DF032E63416250E1C /* h3@2x.png */; };
+		12044738B9049CC104D6704321EBE96A /* h4.png in Resources */ = {isa = PBXBuildFile; fileRef = D442CB7F3E9D5E2A145E848A0149ABE6 /* h4.png */; };
+		12C4521C8F6BD85AC2F27DE7F5BED059 /* outdent.png in Resources */ = {isa = PBXBuildFile; fileRef = 73AAFB686025C91EA6B1E8AEE37118AC /* outdent.png */; };
+		1896BA6595A18248A2FDE3DC89B7BB9E /* Pods-MagentaRichEditorView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE2F7D4C03ED477B25AD840641736A9 /* Pods-MagentaRichEditorView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D4F822230FAAFE64AC24838CE665C2 /* text_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C957CF5171AB008318EE836E862DBBF /* text_color.png */; };
+		1AEA23F1BF8258C3A09A4D7ED6382265 /* h6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DBC259867CEDC72DBFD4950CE4FDCC5 /* h6@2x.png */; };
+		1BBD09E563E624DEC21878144C8F6885 /* Bundle+CustomToolbars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FAEA0EC613D1B70624023C465CF2C /* Bundle+CustomToolbars.swift */; };
+		20AE1220D5FC86359708AAFA067485DE /* justify_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D6A04D22968575A86F8F5E5ABD70CF2 /* justify_left@2x.png */; };
+		21469576D01CF020D61A209BB6B537D8 /* h3.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D8807E8FD3ABE1B1268E1D3D42492B /* h3.png */; };
+		217A2DF6F0F807301E93F9F6A40E087A /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 0D28159AB8A7F675FE5752ADDCFED4E6 /* style.css */; };
+		2210E31C7F0B89BA4A9153356EB7C82A /* CustomToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553476E1CF7E1358E7767DBD754C351B /* CustomToolbarButton.swift */; };
+		23D976C261DD59662561D68ED7C10172 /* subscript@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E04487E71255CAA76B963893C37AB /* subscript@2x.png */; };
+		29918F18E808A59F1447D406143BFAF3 /* unordered_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 8320CEA5319AC4BD2133CA8B4B4C5A52 /* unordered_list.png */; };
+		2A91A084E91EECC0349A6103202697DE /* italic.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E9C433E4FA18593804EB7345238B16 /* italic.png */; };
+		2BEA0D583EC10DA6A0A0A6C6CEE4AB5B /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA279D14669546A4121B4622DE8CA32 /* Color.swift */; };
+		2E532AD6E6DF8D9C0802CAFF4676B611 /* underline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 699A0DA79EB23DC0418CD4BA43433B7B /* underline@2x.png */; };
+		345D94AADFABCD26E138CB74482805AF /* justify_center.png in Resources */ = {isa = PBXBuildFile; fileRef = 43BC1599C1BF397BBAC4CCF8E2A64604 /* justify_center.png */; };
+		3914C22C5AC6D5061326FCE3A6F81EEF /* h6.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDC566A144D24091E2A674A19755A6E /* h6.png */; };
+		3C080841173865DD66BD9504C9E17732 /* RichEditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2256D65A52BA91E21DE1DF67C18454BD /* RichEditorToolbar.swift */; };
+		4111700AC69E54FCDDF6333EFD99D136 /* h4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B9EAC81A29A1AA13A0954D8F7624D /* h4@2x.png */; };
+		47FDEF6EC61387EF94CA947A334FB4B4 /* Pods-MagentaRichEditorView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 228CD6FD32165265580BAE94BDD03327 /* Pods-MagentaRichEditorView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4939B0F5D00C3B03634F58726086B87B /* RichEditorToolbarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29842AF0856240BF430B606FA37358 /* RichEditorToolbarDelegate.swift */; };
+		4A3854E35F2F2B14C59F047B4F724D67 /* rich_editor.html in Resources */ = {isa = PBXBuildFile; fileRef = F824482229BAE2188AF12E93D8801FE3 /* rich_editor.html */; };
+		4F3CCE1B06D15AFB0C416857C6E42260 /* MagentaRichEditorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0A19BECFDCACC94DC134EF5EFEB098 /* MagentaRichEditorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55BB184ECB1A956A44612F149E559EE1 /* RichEditorOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603C074FEE60C008684DC0CA5A663E57 /* RichEditorOption.swift */; };
+		56C9C9DAED6A2EE9A899FBE2678748C6 /* RichEditorView+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E0431C875408090DF41E041E339FA /* RichEditorView+Toolbar.swift */; };
+		56E1242BE8F5635C3CCBFE00BAE7C102 /* bold.png in Resources */ = {isa = PBXBuildFile; fileRef = 21B9627AB8DA4EFE4D03C88871E9580C /* bold.png */; };
+		57876B6283BD31ACA0B92AFB08174FC5 /* bg_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F783961131DB253BE0286DEA8A0FF991 /* bg_color@2x.png */; };
+		5A16B7DC6223EEC8C166666659D8F31B /* insert_link.png in Resources */ = {isa = PBXBuildFile; fileRef = 789390FA212B1FF96D1691D1A41B7FE8 /* insert_link.png */; };
+		5B5713CC033D8185B50E39FCBD084D63 /* Pods-MagentaRichEditorView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D700B8C7D45F8EE18688E93EBF2DE7 /* Pods-MagentaRichEditorView_Example-dummy.m */; };
+		5E61AB314D7C49D27641A00B5B73AFD8 /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = 162E73B440731EC3BA6189BE7C46F985 /* JSBeautifier.js */; };
+		5EB6225B84AD8301C9DAE95D12D6BE0D /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A3420B445F3F76C6C7DC91FE01111 /* undo.png */; };
+		5EE637719E5212597684D99B5C728F95 /* h2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88D93500C9A3BCCF17A4497A4C2C39A /* h2@2x.png */; };
+		5F742285DE83DED8E3392AC16F944437 /* OutlookEditorOptionSelectableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3096F5E473D85C6FD76C8E0DC9A3DA /* OutlookEditorOptionSelectableProtocol.swift */; };
+		5F75E18B5DFBF2F0B019887DB6CBF0B8 /* OutlookToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7091CD775E580BA75493ABB1ECAF086 /* OutlookToolbar.swift */; };
+		67E14FBC788084E1F19516CBD466A8E4 /* OutlookEditorOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC98DAFA97F2A0753EC4A16436F3EC /* OutlookEditorOptionsView.swift */; };
+		6994E3E446FA8143AE6E758F95553C2A /* justify_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 560F83338D1BBE484F9AC6127DCE0607 /* justify_left.png */; };
+		69FE6B9AE3448A96905119AAFEC9DACB /* OutlookEditorOptionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44D4C225B552209F4E51F59CB9E29F /* OutlookEditorOptionIconView.swift */; };
+		6A4E07CCF33BA456A576556B850C55AF /* RichEditorWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808510DB7776C6E6C6F86C157A138167 /* RichEditorWebView.swift */; };
+		737C507A6B52F6C5CE6EDC506DEF18C3 /* MagentaRichEditorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B1445F317AD13C89E9D837C7A6D28 /* MagentaRichEditorView-dummy.m */; };
+		78E6AA245FCD3EC337B22C3BA58711E5 /* bg_color.png in Resources */ = {isa = PBXBuildFile; fileRef = A561E7618D912B61E07A5F18EC948FE3 /* bg_color.png */; };
+		79EA4C3CB972F9FFB84B18C2961C93B6 /* RichEditorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D2436DB2E0C9B3D95AD57267591CA6 /* RichEditorDelegate.swift */; };
+		7B140EF27B662BB597B82CEC219D2EE2 /* justify_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81AE52CA24182B40976A119EBF09B80C /* justify_right@2x.png */; };
+		7B69A51FB535B613F42DF86B74F0D802 /* strikethrough@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9BD2D5CF56879A658CDC4F91C30F07 /* strikethrough@2x.png */; };
+		80E2AA0F8E3BDE03ABD6358C4D697735 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8300E46F98D658BB38B8D76F4C613FA7 /* indent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C286E04E279B1F1DC37740C1AD8D40C4 /* indent@2x.png */; };
+		849D304AA429D824C2A040A8A804E4E5 /* normalize.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FB083D5356489A784011D77DDAB06CA /* normalize.css */; };
+		852727EDF49FC5133F5746A0D68B2418 /* RichBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9110C244FA9DBCA77D5B8A63D5A8AF94 /* RichBarButtonItem.swift */; };
+		878964C632DD7AA84D05F7593D5A474B /* unordered_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59C2A8E8770E5341381FA9EAECBD132C /* unordered_list@2x.png */; };
+		8BBF223914578D9395008330D306DA2B /* ordered_list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 47367531849F31B0670FF0ECA023EF91 /* ordered_list@2x.png */; };
+		8CA74A497DC3CA5EC390E85C96015227 /* h5.png in Resources */ = {isa = PBXBuildFile; fileRef = F5EF77000AF1CDA6286425BEB2F11396 /* h5.png */; };
+		8DF5F80562A60A70100B38C86FE25760 /* RichEditorView+WKNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E116C727F75BEE3D222BF1A08FC70B /* RichEditorView+WKNavigationDelegate.swift */; };
+		9058B0E49F2FFABEA8C3D33A2CDFFB72 /* RichEditorView+WKScriptMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059DE137E2743C9F3F8055F3F8A7139 /* RichEditorView+WKScriptMessageHandler.swift */; };
+		95834DDA864D7700E95946E693589ABC /* OutlookAdditionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F4D0962895B57E36F94FE220F76949 /* OutlookAdditionOption.swift */; };
+		9815EBE487BD663A2609E3AA09DEAAA1 /* text_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9C03110CD8CD28EC139052596E56AD /* text_color@2x.png */; };
+		9A65B23BC6D6992D20C18854EE55C97A /* OutlookEditorSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DF5A23A1F08C2AF0AF1D2E7CB74FF2 /* OutlookEditorSection.swift */; };
+		9B324117094F5E2C41C82485D40A06F1 /* undo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BF6012DDB7B0C52107BC8A836E1EFA /* undo@2x.png */; };
+		9B5345437434709DBFB9E09AE2C498DA /* RichEditorView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D85B1361D677F933F16FB8908585C2 /* RichEditorView+UIScrollViewDelegate.swift */; };
+		9BAB4163D583ED6033C0D57138D387A8 /* indent.png in Resources */ = {isa = PBXBuildFile; fileRef = 89B57E31521A02697FBAEE35E150A77C /* indent.png */; };
+		9C3CF4E439B3F99F2B25578D6FDBAE4A /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0C2E0D85499F04DCFDED355AE41CF34 /* clear.png */; };
+		A274D2ED1CD568C3B94440CFF8DC1448 /* h2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F5C27D96E2579C6D43E38906944340B /* h2.png */; };
+		A31C7EDF9A5D916C1AA23EA8DBE6D80C /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3237BCB38303C292EDACA0478C558E3 /* redo.png */; };
+		A3DBC68642D707A44EB569AE2CEBFB21 /* subscript.png in Resources */ = {isa = PBXBuildFile; fileRef = AA97457B279AE9BB07A22CB1742124C0 /* subscript.png */; };
+		AB0EFFEAF3C612DB37B18F38F0515B17 /* superscript.png in Resources */ = {isa = PBXBuildFile; fileRef = B1314E2A17E83C63D3649828E740DC74 /* superscript.png */; };
+		ACC9E35BC0306EA8A40ECE21FC6632DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B63AEBCEBF384849394B1E9FB93690E9 /* insert_image.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A57F0890D78E854C3318C9E15F19BA /* insert_image.png */; };
+		B76376D94786672439AD52E29CB6ACD6 /* outdent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0828FE978F93F4A7206A2A5A804D35AC /* outdent@2x.png */; };
+		B9D30F7303A702042A421E69EA4DF717 /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = F232F18E56D0B11E7FFD52C13571647B /* jQuery.js */; };
+		BC76810AC06696356DA6CABE77A8B7EE /* ToolbarActionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4BAA82A612AB750E18A6C84F141B37 /* ToolbarActionType.swift */; };
+		BF159003A94CA018A30AB7619681247A /* ordered_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F50DF1774084661C80608DC5ABC1BF3 /* ordered_list.png */; };
+		C07E18ACDCCC372DFDCC9375049E34B6 /* clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D96FCFF888F497962FD19B9D228B1AB2 /* clear@2x.png */; };
+		C164711FE1651989DB613744CE844624 /* justify_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A02E459E05E90644DA47BA927869C6B0 /* justify_center@2x.png */; };
+		C1ACA621922544B3DD3D58C459189DAF /* italic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36717BF8F600DBC3089C9E10DCC5E9BC /* italic@2x.png */; };
+		C8234291E996B8C5801C9F39EF5E2302 /* CustomIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D132E1C81D4F7DF197E315F7F48372E /* CustomIcons.xcassets */; };
+		C879FB787EC57D7C3C501C93D740B7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CC3DE782E0C497F43D8A0916218BAC59 /* RichEditorView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92A88020F1F52C9635CBD824C4A0A7 /* RichEditorView+Utils.swift */; };
+		D1B287085FEE6B6E7B8F406A8083F29D /* RichEditorOptionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC90C7A63479380F4565293FD0F3DCC /* RichEditorOptionItem.swift */; };
+		D3FD1E543659A171F469BC330570039C /* OutlookAdditionOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD828A4962C9044D6DE91E6EAFD81FA /* OutlookAdditionOptionsView.swift */; };
+		D758849C9947A1E72197DB60729DC891 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C89E3742A0B6D0109EE885B72EB4BB /* Bundle.swift */; };
+		D78BBFA5C12C20DC0BD580E0039FFC02 /* OutlookEditorSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AE0361D9D77F4FE1949AF8429B3C61 /* OutlookEditorSectionView.swift */; };
+		DA732DA82B6745A16030B536E7FC905E /* redo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 503CA97930866B743BA711DA578D45A4 /* redo@2x.png */; };
+		DA84540BA2682D063BB17C29D985832F /* underline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E511EB8148BE1820597764132FDCE44 /* underline.png */; };
+		DB08C8EB203686B808C2687DA2ED1CD0 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AAE38F51E7EB0B781E1B94ECF1D110 /* String.swift */; };
+		DBE9744C9022721ABBA0D256155233BD /* OutlookEditorSectionOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28B2688E55B9E8685C38162973726A /* OutlookEditorSectionOption.swift */; };
+		DD8979C6A7602D9A41974163B734A29B /* h1.png in Resources */ = {isa = PBXBuildFile; fileRef = 59F0C4B1F8FF1C5EDF7CDEA61F4BDD96 /* h1.png */; };
+		DE38F8E46287F8D1C875D7C84F5F0839 /* h5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B46168429DEA2643E679C2273818FCBF /* h5@2x.png */; };
+		E6D1E623BE2F46A56D3F9E0807420307 /* bold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CDE59A3D79C64A5772A2F85978FDE03 /* bold@2x.png */; };
+		EBBF7D0FEB16C0632B22A0AB58F9817D /* RichEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19372DBC78DBFE0C3533A40762F997B /* RichEditorView.swift */; };
+		EDA586D8DB74E234E602953BE7DEA036 /* justify_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 88F3794BE703FF218AF5406CE02FC8BE /* justify_right.png */; };
+		EE47AA86859D15433B3ECD121AAA1C6C /* superscript@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF9BF25BA929DE4E0D419DB4674C031 /* superscript@2x.png */; };
+		EF5763B888773072C9AB046B8D089603 /* rich_editor.js in Resources */ = {isa = PBXBuildFile; fileRef = 6CF6ACCF179F7FFC4E8BE63E2B5A4040 /* rich_editor.js */; };
+		F0D6A8E47F22EBE9E1EBB3D308E31C22 /* MagentaRichEditorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46D249527162EA74403AD19AADF39906 /* MagentaRichEditorView.bundle */; };
+		F25A06D4A19DED69C81BCDAEFE0B2C10 /* insert_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B852E96E7D7041C1AAB0A0D377093283 /* insert_image@2x.png */; };
+		F25FD4C5906E65F8F068C19C6576FC04 /* OutlookEditorOptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C13995C6B5854C7AA5E99A4FF80F7C /* OutlookEditorOptionTextView.swift */; };
+		F5D9BE9FF6A75739DE526092093E7417 /* Pods-MagentaRichEditorView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 087C32072A89AF9ED620DD44CF8B7F44 /* Pods-MagentaRichEditorView_Tests-dummy.m */; };
+		FA2E511F843EC6171E7816B01A363E39 /* strikethrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B57575B00905B2062266C3D69BCF14 /* strikethrough.png */; };
+		FF5CB7DE8F9EC90EE31C28DBABABDD18 /* RichEditorDefaultOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B1A29E3ECD895DF449CCF50419D8D7 /* RichEditorDefaultOption.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0424B0277D1CD557D9E5B5BABC78CA8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1ADA599B0AA6745FCCC36A57727C2C;
+			remoteInfo = "Pods-MagentaRichEditorView_Example";
+		};
+		DCACFB0A1BAAFB8B1584FA6BF952747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F7C53A11A855C5090C17499D57C793F;
+			remoteInfo = "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars";
+		};
+		DDE28FA536F5D57DE6ED1F8249299E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781675E96DB555BA951DF403246DAD76;
+			remoteInfo = "MagentaRichEditorView-MagentaRichEditorView";
+		};
+		F8FBDA3559A8B6CF9B48BF1EC9043A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C8B44D6E9D121D2B2F14E9A02297E7;
+			remoteInfo = MagentaRichEditorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DF5A23A1F08C2AF0AF1D2E7CB74FF2 /* OutlookEditorSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorSection.swift; sourceTree = "<group>"; };
+		02D85B1361D677F933F16FB8908585C2 /* RichEditorView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		0828FE978F93F4A7206A2A5A804D35AC /* outdent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "outdent@2x.png"; sourceTree = "<group>"; };
+		087C32072A89AF9ED620DD44CF8B7F44 /* Pods-MagentaRichEditorView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagentaRichEditorView_Tests-dummy.m"; sourceTree = "<group>"; };
+		0CF9BF25BA929DE4E0D419DB4674C031 /* superscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "superscript@2x.png"; sourceTree = "<group>"; };
+		0D28159AB8A7F675FE5752ADDCFED4E6 /* style.css */ = {isa = PBXFileReference; includeInIndex = 1; path = style.css; sourceTree = "<group>"; };
+		0DA279D14669546A4121B4622DE8CA32 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0DBC259867CEDC72DBFD4950CE4FDCC5 /* h6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h6@2x.png"; sourceTree = "<group>"; };
+		0DC90C7A63479380F4565293FD0F3DCC /* RichEditorOptionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorOptionItem.swift; sourceTree = "<group>"; };
+		0E14C49957150E0AB7E0E15394732376 /* ResourceBundle-MagentaRichEditorViewCustomToolbars-MagentaRichEditorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MagentaRichEditorViewCustomToolbars-MagentaRichEditorView-Info.plist"; sourceTree = "<group>"; };
+		0F0E0431C875408090DF41E041E339FA /* RichEditorView+Toolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+Toolbar.swift"; sourceTree = "<group>"; };
+		12C2186CDE03850FFEA968ADA9DA1E5F /* Pods-MagentaRichEditorView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagentaRichEditorView_Tests.modulemap"; sourceTree = "<group>"; };
+		1575E00E48A4CA09CC33749421F65B6F /* Pods-MagentaRichEditorView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagentaRichEditorView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		162E73B440731EC3BA6189BE7C46F985 /* JSBeautifier.js */ = {isa = PBXFileReference; includeInIndex = 1; path = JSBeautifier.js; sourceTree = "<group>"; };
+		18D700B8C7D45F8EE18688E93EBF2DE7 /* Pods-MagentaRichEditorView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MagentaRichEditorView_Example-dummy.m"; sourceTree = "<group>"; };
+		1B44D4C225B552209F4E51F59CB9E29F /* OutlookEditorOptionIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorOptionIconView.swift; sourceTree = "<group>"; };
+		1B8D674DBEB5AC2C284D22F6AEDED5EC /* Pods-MagentaRichEditorView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagentaRichEditorView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		21B9627AB8DA4EFE4D03C88871E9580C /* bold.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bold.png; sourceTree = "<group>"; };
+		222CD19FE84B29459F8CF1BF42C3B3A0 /* MagentaRichEditorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MagentaRichEditorView-Info.plist"; sourceTree = "<group>"; };
+		2256D65A52BA91E21DE1DF67C18454BD /* RichEditorToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorToolbar.swift; sourceTree = "<group>"; };
+		228CD6FD32165265580BAE94BDD03327 /* Pods-MagentaRichEditorView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagentaRichEditorView_Example-umbrella.h"; sourceTree = "<group>"; };
+		24AC903DC3790DCC449E447B7F87733C /* Pods_MagentaRichEditorView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagentaRichEditorView_Example.framework; path = "Pods-MagentaRichEditorView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AAE38F51E7EB0B781E1B94ECF1D110 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2E29842AF0856240BF430B606FA37358 /* RichEditorToolbarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorToolbarDelegate.swift; sourceTree = "<group>"; };
+		31B78C774F4859862884A7ECD3D4BE1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		359E7B8D42B59924B08A61016D7E1AEF /* MagentaRichEditorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MagentaRichEditorView.modulemap; sourceTree = "<group>"; };
+		36717BF8F600DBC3089C9E10DCC5E9BC /* italic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "italic@2x.png"; sourceTree = "<group>"; };
+		38B1A29E3ECD895DF449CCF50419D8D7 /* RichEditorDefaultOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorDefaultOption.swift; sourceTree = "<group>"; };
+		38CF5C33CD5727ECE256F4269C1767A5 /* RichEditorView+Actions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+Actions.swift"; sourceTree = "<group>"; };
+		3B1FAEA0EC613D1B70624023C465CF2C /* Bundle+CustomToolbars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+CustomToolbars.swift"; sourceTree = "<group>"; };
+		3C1A3420B445F3F76C6C7DC91FE01111 /* undo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		3FAE1ED4B7F48861B662EC7F99EC1DB8 /* Pods-MagentaRichEditorView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagentaRichEditorView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FB083D5356489A784011D77DDAB06CA /* normalize.css */ = {isa = PBXFileReference; includeInIndex = 1; path = normalize.css; sourceTree = "<group>"; };
+		3FD828A4962C9044D6DE91E6EAFD81FA /* OutlookAdditionOptionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookAdditionOptionsView.swift; sourceTree = "<group>"; };
+		41C13995C6B5854C7AA5E99A4FF80F7C /* OutlookEditorOptionTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorOptionTextView.swift; sourceTree = "<group>"; };
+		43BC1599C1BF397BBAC4CCF8E2A64604 /* justify_center.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = justify_center.png; sourceTree = "<group>"; };
+		44B57575B00905B2062266C3D69BCF14 /* strikethrough.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = strikethrough.png; sourceTree = "<group>"; };
+		46D249527162EA74403AD19AADF39906 /* MagentaRichEditorView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MagentaRichEditorView.bundle; path = "MagentaRichEditorView-MagentaRichEditorView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47367531849F31B0670FF0ECA023EF91 /* ordered_list@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ordered_list@2x.png"; sourceTree = "<group>"; };
+		48D2436DB2E0C9B3D95AD57267591CA6 /* RichEditorDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorDelegate.swift; sourceTree = "<group>"; };
+		4A0A19BECFDCACC94DC134EF5EFEB098 /* MagentaRichEditorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagentaRichEditorView-umbrella.h"; sourceTree = "<group>"; };
+		4B3EFE7C1D34853BE7DB426662059C13 /* Pods-MagentaRichEditorView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagentaRichEditorView_Example-Info.plist"; sourceTree = "<group>"; };
+		4DEC2B87D04B6B7D5A5F60C7ED080169 /* MagentaRichEditorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagentaRichEditorView.debug.xcconfig; sourceTree = "<group>"; };
+		4E511EB8148BE1820597764132FDCE44 /* underline.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = underline.png; sourceTree = "<group>"; };
+		4E8B1445F317AD13C89E9D837C7A6D28 /* MagentaRichEditorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MagentaRichEditorView-dummy.m"; sourceTree = "<group>"; };
+		4F03E8A068B7F5CAAF6C24F4D11BB09A /* MagentaRichEditorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MagentaRichEditorView-prefix.pch"; sourceTree = "<group>"; };
+		4F5C27D96E2579C6D43E38906944340B /* h2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h2.png; sourceTree = "<group>"; };
+		503CA97930866B743BA711DA578D45A4 /* redo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "redo@2x.png"; sourceTree = "<group>"; };
+		50E9C433E4FA18593804EB7345238B16 /* italic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = italic.png; sourceTree = "<group>"; };
+		553476E1CF7E1358E7767DBD754C351B /* CustomToolbarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomToolbarButton.swift; sourceTree = "<group>"; };
+		560F83338D1BBE484F9AC6127DCE0607 /* justify_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = justify_left.png; sourceTree = "<group>"; };
+		59C2A8E8770E5341381FA9EAECBD132C /* unordered_list@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "unordered_list@2x.png"; sourceTree = "<group>"; };
+		59F0C4B1F8FF1C5EDF7CDEA61F4BDD96 /* h1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		5B9C03110CD8CD28EC139052596E56AD /* text_color@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "text_color@2x.png"; sourceTree = "<group>"; };
+		5D6A04D22968575A86F8F5E5ABD70CF2 /* justify_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "justify_left@2x.png"; sourceTree = "<group>"; };
+		603C074FEE60C008684DC0CA5A663E57 /* RichEditorOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorOption.swift; sourceTree = "<group>"; };
+		625220F7CBA3970275B1950F8D2A35BA /* Pods-MagentaRichEditorView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagentaRichEditorView_Tests-Info.plist"; sourceTree = "<group>"; };
+		699A0DA79EB23DC0418CD4BA43433B7B /* underline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "underline@2x.png"; sourceTree = "<group>"; };
+		6CF6ACCF179F7FFC4E8BE63E2B5A4040 /* rich_editor.js */ = {isa = PBXFileReference; includeInIndex = 1; path = rich_editor.js; sourceTree = "<group>"; };
+		6D28B2688E55B9E8685C38162973726A /* OutlookEditorSectionOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorSectionOption.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AAFB686025C91EA6B1E8AEE37118AC /* outdent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = outdent.png; sourceTree = "<group>"; };
+		789390FA212B1FF96D1691D1A41B7FE8 /* insert_link.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = insert_link.png; sourceTree = "<group>"; };
+		7CDE59A3D79C64A5772A2F85978FDE03 /* bold@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bold@2x.png"; sourceTree = "<group>"; };
+		7D132E1C81D4F7DF197E315F7F48372E /* CustomIcons.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CustomIcons.xcassets; path = MagentaRichEditorView/Assets/CustomToolbars/CustomIcons.xcassets; sourceTree = "<group>"; };
+		808510DB7776C6E6C6F86C157A138167 /* RichEditorWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorWebView.swift; sourceTree = "<group>"; };
+		81AE52CA24182B40976A119EBF09B80C /* justify_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "justify_right@2x.png"; sourceTree = "<group>"; };
+		8314743BF6B13DF0280C73CE09F3C02C /* Pods-MagentaRichEditorView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MagentaRichEditorView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		831E04487E71255CAA76B963893C37AB /* subscript@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "subscript@2x.png"; sourceTree = "<group>"; };
+		8320CEA5319AC4BD2133CA8B4B4C5A52 /* unordered_list.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = unordered_list.png; sourceTree = "<group>"; };
+		86EEDDB35739D52B6D764E8A27FFA604 /* MagentaRichEditorView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MagentaRichEditorView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87D8807E8FD3ABE1B1268E1D3D42492B /* h3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h3.png; sourceTree = "<group>"; };
+		88F3794BE703FF218AF5406CE02FC8BE /* justify_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = justify_right.png; sourceTree = "<group>"; };
+		89B57E31521A02697FBAEE35E150A77C /* indent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = indent.png; sourceTree = "<group>"; };
+		8A13CCD12A4A57E10A43EFCAA95B0C2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8EE2F7D4C03ED477B25AD840641736A9 /* Pods-MagentaRichEditorView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MagentaRichEditorView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9110C244FA9DBCA77D5B8A63D5A8AF94 /* RichBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichBarButtonItem.swift; sourceTree = "<group>"; };
+		9B2B9EAC81A29A1AA13A0954D8F7624D /* h4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h4@2x.png"; sourceTree = "<group>"; };
+		9C957CF5171AB008318EE836E862DBBF /* text_color.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = text_color.png; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F20A0DB57FF07D79CC95783EF3E89E3 /* insert_link@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "insert_link@2x.png"; sourceTree = "<group>"; };
+		9F50DF1774084661C80608DC5ABC1BF3 /* ordered_list.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ordered_list.png; sourceTree = "<group>"; };
+		A02E459E05E90644DA47BA927869C6B0 /* justify_center@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "justify_center@2x.png"; sourceTree = "<group>"; };
+		A4AE0361D9D77F4FE1949AF8429B3C61 /* OutlookEditorSectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorSectionView.swift; sourceTree = "<group>"; };
+		A561E7618D912B61E07A5F18EC948FE3 /* bg_color.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = bg_color.png; sourceTree = "<group>"; };
+		A940795C8A7FE61DF032E63416250E1C /* h3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h3@2x.png"; sourceTree = "<group>"; };
+		AA97457B279AE9BB07A22CB1742124C0 /* subscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = subscript.png; sourceTree = "<group>"; };
+		B0E39CF1C0CF7E7F27503634816B2300 /* Pods-MagentaRichEditorView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MagentaRichEditorView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1314E2A17E83C63D3649828E740DC74 /* superscript.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = superscript.png; sourceTree = "<group>"; };
+		B412A8038338C3906D9034C14CC0A90A /* Pods-MagentaRichEditorView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagentaRichEditorView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B46168429DEA2643E679C2273818FCBF /* h5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h5@2x.png"; sourceTree = "<group>"; };
+		B852E96E7D7041C1AAB0A0D377093283 /* insert_image@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "insert_image@2x.png"; sourceTree = "<group>"; };
+		B8A57F0890D78E854C3318C9E15F19BA /* insert_image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = insert_image.png; sourceTree = "<group>"; };
+		B9F4D0962895B57E36F94FE220F76949 /* OutlookAdditionOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookAdditionOption.swift; sourceTree = "<group>"; };
+		C0BF6012DDB7B0C52107BC8A836E1EFA /* undo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "undo@2x.png"; sourceTree = "<group>"; };
+		C19372DBC78DBFE0C3533A40762F997B /* RichEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RichEditorView.swift; sourceTree = "<group>"; };
+		C1C5AF4BC689122DC0CAC1336CFC3FB4 /* Pods-MagentaRichEditorView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagentaRichEditorView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C286E04E279B1F1DC37740C1AD8D40C4 /* indent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "indent@2x.png"; sourceTree = "<group>"; };
+		C538EB474C98C9C5D9F54BB123588133 /* ResourceBundle-MagentaRichEditorView-MagentaRichEditorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MagentaRichEditorView-MagentaRichEditorView-Info.plist"; sourceTree = "<group>"; };
+		C7091CD775E580BA75493ABB1ECAF086 /* OutlookToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookToolbar.swift; sourceTree = "<group>"; };
+		CCD5E9D689A31AE3F7C3A548619E8E2E /* OutlookEditorOptionTextParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorOptionTextParams.swift; sourceTree = "<group>"; };
+		D092749696BE60328E7BA1DD9A0AAE2C /* Pods-MagentaRichEditorView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MagentaRichEditorView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0C2E0D85499F04DCFDED355AE41CF34 /* clear.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		D0F6C537B41BF4B0F7F8BCF4ABD4B11C /* MagentaRichEditorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MagentaRichEditorView.framework; path = MagentaRichEditorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D442CB7F3E9D5E2A145E848A0149ABE6 /* h4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h4.png; sourceTree = "<group>"; };
+		D4E116C727F75BEE3D222BF1A08FC70B /* RichEditorView+WKNavigationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+WKNavigationDelegate.swift"; sourceTree = "<group>"; };
+		D96FCFF888F497962FD19B9D228B1AB2 /* clear@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "clear@2x.png"; sourceTree = "<group>"; };
+		E059DE137E2743C9F3F8055F3F8A7139 /* RichEditorView+WKScriptMessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+WKScriptMessageHandler.swift"; sourceTree = "<group>"; };
+		E53A840391E4B380912EB79C6AAC3D0B /* Pods_MagentaRichEditorView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MagentaRichEditorView_Tests.framework; path = "Pods-MagentaRichEditorView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BC98DAFA97F2A0753EC4A16436F3EC /* OutlookEditorOptionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorOptionsView.swift; sourceTree = "<group>"; };
+		E852CBCDB6858A75FD7B0FEB0E2600E5 /* h1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h1@2x.png"; sourceTree = "<group>"; };
+		EA3DFEF2BB72CCE7C854D39FEA1E2E2F /* MagentaRichEditorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MagentaRichEditorView.release.xcconfig; sourceTree = "<group>"; };
+		EBCFF7668F0C0666C453918D19C7820F /* MagentaRichEditorViewCustomToolbars.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MagentaRichEditorViewCustomToolbars.bundle; path = "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92A88020F1F52C9635CBD824C4A0A7 /* RichEditorView+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "RichEditorView+Utils.swift"; sourceTree = "<group>"; };
+		F21E1B71BC28A5031A9C1C2990870EC6 /* Pods-MagentaRichEditorView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MagentaRichEditorView_Example.modulemap"; sourceTree = "<group>"; };
+		F232F18E56D0B11E7FFD52C13571647B /* jQuery.js */ = {isa = PBXFileReference; includeInIndex = 1; path = jQuery.js; sourceTree = "<group>"; };
+		F3237BCB38303C292EDACA0478C558E3 /* redo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		F5EF77000AF1CDA6286425BEB2F11396 /* h5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h5.png; sourceTree = "<group>"; };
+		F783961131DB253BE0286DEA8A0FF991 /* bg_color@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bg_color@2x.png"; sourceTree = "<group>"; };
+		F824482229BAE2188AF12E93D8801FE3 /* rich_editor.html */ = {isa = PBXFileReference; includeInIndex = 1; path = rich_editor.html; sourceTree = "<group>"; };
+		F88D93500C9A3BCCF17A4497A4C2C39A /* h2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "h2@2x.png"; sourceTree = "<group>"; };
+		F91254B63C24B99C5DEE3A4798A8118B /* Pods-MagentaRichEditorView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MagentaRichEditorView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F9C89E3742A0B6D0109EE885B72EB4BB /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		FB3096F5E473D85C6FD76C8E0DC9A3DA /* OutlookEditorOptionSelectableProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OutlookEditorOptionSelectableProtocol.swift; sourceTree = "<group>"; };
+		FB9BD2D5CF56879A658CDC4F91C30F07 /* strikethrough@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "strikethrough@2x.png"; sourceTree = "<group>"; };
+		FF4BAA82A612AB750E18A6C84F141B37 /* ToolbarActionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToolbarActionType.swift; sourceTree = "<group>"; };
+		FFDC566A144D24091E2A674A19755A6E /* h6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = h6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015629E424F151FC673B0DDEDBAC1FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2AA0F8E3BDE03ABD6358C4D697735 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF915BDF00F2512B20E55C55EB47684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C879FB787EC57D7C3C501C93D740B7B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68BA66C30DC198B7B78887622E4D7488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC9E35BC0306EA8A40ECE21FC6632DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA40F0DCD9B391B3269BE75A3E639005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BABE24839903BC87E06CB5991BDD1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8FA17EC09AA9E0CC84EBF7289EEA52 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				A561E7618D912B61E07A5F18EC948FE3 /* bg_color.png */,
+				F783961131DB253BE0286DEA8A0FF991 /* bg_color@2x.png */,
+				21B9627AB8DA4EFE4D03C88871E9580C /* bold.png */,
+				7CDE59A3D79C64A5772A2F85978FDE03 /* bold@2x.png */,
+				D0C2E0D85499F04DCFDED355AE41CF34 /* clear.png */,
+				D96FCFF888F497962FD19B9D228B1AB2 /* clear@2x.png */,
+				59F0C4B1F8FF1C5EDF7CDEA61F4BDD96 /* h1.png */,
+				E852CBCDB6858A75FD7B0FEB0E2600E5 /* h1@2x.png */,
+				4F5C27D96E2579C6D43E38906944340B /* h2.png */,
+				F88D93500C9A3BCCF17A4497A4C2C39A /* h2@2x.png */,
+				87D8807E8FD3ABE1B1268E1D3D42492B /* h3.png */,
+				A940795C8A7FE61DF032E63416250E1C /* h3@2x.png */,
+				D442CB7F3E9D5E2A145E848A0149ABE6 /* h4.png */,
+				9B2B9EAC81A29A1AA13A0954D8F7624D /* h4@2x.png */,
+				F5EF77000AF1CDA6286425BEB2F11396 /* h5.png */,
+				B46168429DEA2643E679C2273818FCBF /* h5@2x.png */,
+				FFDC566A144D24091E2A674A19755A6E /* h6.png */,
+				0DBC259867CEDC72DBFD4950CE4FDCC5 /* h6@2x.png */,
+				89B57E31521A02697FBAEE35E150A77C /* indent.png */,
+				C286E04E279B1F1DC37740C1AD8D40C4 /* indent@2x.png */,
+				B8A57F0890D78E854C3318C9E15F19BA /* insert_image.png */,
+				B852E96E7D7041C1AAB0A0D377093283 /* insert_image@2x.png */,
+				789390FA212B1FF96D1691D1A41B7FE8 /* insert_link.png */,
+				9F20A0DB57FF07D79CC95783EF3E89E3 /* insert_link@2x.png */,
+				50E9C433E4FA18593804EB7345238B16 /* italic.png */,
+				36717BF8F600DBC3089C9E10DCC5E9BC /* italic@2x.png */,
+				43BC1599C1BF397BBAC4CCF8E2A64604 /* justify_center.png */,
+				A02E459E05E90644DA47BA927869C6B0 /* justify_center@2x.png */,
+				560F83338D1BBE484F9AC6127DCE0607 /* justify_left.png */,
+				5D6A04D22968575A86F8F5E5ABD70CF2 /* justify_left@2x.png */,
+				88F3794BE703FF218AF5406CE02FC8BE /* justify_right.png */,
+				81AE52CA24182B40976A119EBF09B80C /* justify_right@2x.png */,
+				9F50DF1774084661C80608DC5ABC1BF3 /* ordered_list.png */,
+				47367531849F31B0670FF0ECA023EF91 /* ordered_list@2x.png */,
+				73AAFB686025C91EA6B1E8AEE37118AC /* outdent.png */,
+				0828FE978F93F4A7206A2A5A804D35AC /* outdent@2x.png */,
+				F3237BCB38303C292EDACA0478C558E3 /* redo.png */,
+				503CA97930866B743BA711DA578D45A4 /* redo@2x.png */,
+				44B57575B00905B2062266C3D69BCF14 /* strikethrough.png */,
+				FB9BD2D5CF56879A658CDC4F91C30F07 /* strikethrough@2x.png */,
+				AA97457B279AE9BB07A22CB1742124C0 /* subscript.png */,
+				831E04487E71255CAA76B963893C37AB /* subscript@2x.png */,
+				B1314E2A17E83C63D3649828E740DC74 /* superscript.png */,
+				0CF9BF25BA929DE4E0D419DB4674C031 /* superscript@2x.png */,
+				9C957CF5171AB008318EE836E862DBBF /* text_color.png */,
+				5B9C03110CD8CD28EC139052596E56AD /* text_color@2x.png */,
+				4E511EB8148BE1820597764132FDCE44 /* underline.png */,
+				699A0DA79EB23DC0418CD4BA43433B7B /* underline@2x.png */,
+				3C1A3420B445F3F76C6C7DC91FE01111 /* undo.png */,
+				C0BF6012DDB7B0C52107BC8A836E1EFA /* undo@2x.png */,
+				8320CEA5319AC4BD2133CA8B4B4C5A52 /* unordered_list.png */,
+				59C2A8E8770E5341381FA9EAECBD132C /* unordered_list@2x.png */,
+			);
+			name = icons;
+			path = MagentaRichEditorView/Assets/Core/icons;
+			sourceTree = "<group>";
+		};
+		0EC2CB4BB2D91E320F60715837321381 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9110C244FA9DBCA77D5B8A63D5A8AF94 /* RichBarButtonItem.swift */,
+				2256D65A52BA91E21DE1DF67C18454BD /* RichEditorToolbar.swift */,
+				808510DB7776C6E6C6F86C157A138167 /* RichEditorWebView.swift */,
+				E74CD0F1A5FE90DD0D737FE9718A3A06 /* RichEditorView */,
+			);
+			name = Views;
+			path = MagentaRichEditorView/Classes/Core/Views;
+			sourceTree = "<group>";
+		};
+		155D0FF69FB2C09E6B38F7ABC2C84037 /* Pods-MagentaRichEditorView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F21E1B71BC28A5031A9C1C2990870EC6 /* Pods-MagentaRichEditorView_Example.modulemap */,
+				D092749696BE60328E7BA1DD9A0AAE2C /* Pods-MagentaRichEditorView_Example-acknowledgements.markdown */,
+				8314743BF6B13DF0280C73CE09F3C02C /* Pods-MagentaRichEditorView_Example-acknowledgements.plist */,
+				18D700B8C7D45F8EE18688E93EBF2DE7 /* Pods-MagentaRichEditorView_Example-dummy.m */,
+				B0E39CF1C0CF7E7F27503634816B2300 /* Pods-MagentaRichEditorView_Example-frameworks.sh */,
+				4B3EFE7C1D34853BE7DB426662059C13 /* Pods-MagentaRichEditorView_Example-Info.plist */,
+				228CD6FD32165265580BAE94BDD03327 /* Pods-MagentaRichEditorView_Example-umbrella.h */,
+				C1C5AF4BC689122DC0CAC1336CFC3FB4 /* Pods-MagentaRichEditorView_Example.debug.xcconfig */,
+				F91254B63C24B99C5DEE3A4798A8118B /* Pods-MagentaRichEditorView_Example.release.xcconfig */,
+			);
+			name = "Pods-MagentaRichEditorView_Example";
+			path = "Target Support Files/Pods-MagentaRichEditorView_Example";
+			sourceTree = "<group>";
+		};
+		18500C7FAAE1691171B4DA3D553D8AF8 /* Pods-MagentaRichEditorView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12C2186CDE03850FFEA968ADA9DA1E5F /* Pods-MagentaRichEditorView_Tests.modulemap */,
+				B412A8038338C3906D9034C14CC0A90A /* Pods-MagentaRichEditorView_Tests-acknowledgements.markdown */,
+				3FAE1ED4B7F48861B662EC7F99EC1DB8 /* Pods-MagentaRichEditorView_Tests-acknowledgements.plist */,
+				087C32072A89AF9ED620DD44CF8B7F44 /* Pods-MagentaRichEditorView_Tests-dummy.m */,
+				625220F7CBA3970275B1950F8D2A35BA /* Pods-MagentaRichEditorView_Tests-Info.plist */,
+				8EE2F7D4C03ED477B25AD840641736A9 /* Pods-MagentaRichEditorView_Tests-umbrella.h */,
+				1575E00E48A4CA09CC33749421F65B6F /* Pods-MagentaRichEditorView_Tests.debug.xcconfig */,
+				1B8D674DBEB5AC2C284D22F6AEDED5EC /* Pods-MagentaRichEditorView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MagentaRichEditorView_Tests";
+			path = "Target Support Files/Pods-MagentaRichEditorView_Tests";
+			sourceTree = "<group>";
+		};
+		25D81D862136E40AB07B4082DB6B16BF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52852C182F21DB4B872C808F998A8DA9 /* MagentaRichEditorView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		36AC95C8EF377EDCA019C4CACDB5E10E /* CustomToolbars */ = {
+			isa = PBXGroup;
+			children = (
+				7D132E1C81D4F7DF197E315F7F48372E /* CustomIcons.xcassets */,
+				F69EDDC2A9CBA7026D08E59C9E2AFF31 /* Common */,
+				6B196F6F0F0EA78A6233A9E2EE2C0745 /* Extensions */,
+				54C4C9B0AA3EEE6B7869CF65009C25C5 /* OutlookToolbar */,
+			);
+			name = CustomToolbars;
+			sourceTree = "<group>";
+		};
+		52852C182F21DB4B872C808F998A8DA9 /* MagentaRichEditorView */ = {
+			isa = PBXGroup;
+			children = (
+				D5872E1F44CBD2D50773F1B8AAF10BE5 /* Core */,
+				36AC95C8EF377EDCA019C4CACDB5E10E /* CustomToolbars */,
+				7A14D9538BA31D91421164A09011560D /* Pod */,
+				CEE4B83A31FEE814EDF60C5FD40645A7 /* Support Files */,
+			);
+			name = MagentaRichEditorView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54C4C9B0AA3EEE6B7869CF65009C25C5 /* OutlookToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				B9F4D0962895B57E36F94FE220F76949 /* OutlookAdditionOption.swift */,
+				3FD828A4962C9044D6DE91E6EAFD81FA /* OutlookAdditionOptionsView.swift */,
+				1B44D4C225B552209F4E51F59CB9E29F /* OutlookEditorOptionIconView.swift */,
+				FB3096F5E473D85C6FD76C8E0DC9A3DA /* OutlookEditorOptionSelectableProtocol.swift */,
+				E5BC98DAFA97F2A0753EC4A16436F3EC /* OutlookEditorOptionsView.swift */,
+				CCD5E9D689A31AE3F7C3A548619E8E2E /* OutlookEditorOptionTextParams.swift */,
+				41C13995C6B5854C7AA5E99A4FF80F7C /* OutlookEditorOptionTextView.swift */,
+				00DF5A23A1F08C2AF0AF1D2E7CB74FF2 /* OutlookEditorSection.swift */,
+				6D28B2688E55B9E8685C38162973726A /* OutlookEditorSectionOption.swift */,
+				A4AE0361D9D77F4FE1949AF8429B3C61 /* OutlookEditorSectionView.swift */,
+				C7091CD775E580BA75493ABB1ECAF086 /* OutlookToolbar.swift */,
+			);
+			name = OutlookToolbar;
+			path = MagentaRichEditorView/Classes/CustomToolbars/OutlookToolbar;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66C46EF1E2502D26712F6F0A0298E5B9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FF4BAA82A612AB750E18A6C84F141B37 /* ToolbarActionType.swift */,
+			);
+			name = Common;
+			path = MagentaRichEditorView/Classes/Core/Common;
+			sourceTree = "<group>";
+		};
+		6B196F6F0F0EA78A6233A9E2EE2C0745 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B1FAEA0EC613D1B70624023C465CF2C /* Bundle+CustomToolbars.swift */,
+			);
+			name = Extensions;
+			path = MagentaRichEditorView/Classes/CustomToolbars/Extensions;
+			sourceTree = "<group>";
+		};
+		73E01515E3277E23A62B171EE39D66FF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				48D2436DB2E0C9B3D95AD57267591CA6 /* RichEditorDelegate.swift */,
+				2E29842AF0856240BF430B606FA37358 /* RichEditorToolbarDelegate.swift */,
+			);
+			name = Delegates;
+			path = MagentaRichEditorView/Classes/Core/Delegates;
+			sourceTree = "<group>";
+		};
+		7A14D9538BA31D91421164A09011560D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31B78C774F4859862884A7ECD3D4BE1B /* LICENSE */,
+				86EEDDB35739D52B6D764E8A27FFA604 /* MagentaRichEditorView.podspec */,
+				8A13CCD12A4A57E10A43EFCAA95B0C2D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C01319F9310A6C6F2F910CEF77A156E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				155D0FF69FB2C09E6B38F7ABC2C84037 /* Pods-MagentaRichEditorView_Example */,
+				18500C7FAAE1691171B4DA3D553D8AF8 /* Pods-MagentaRichEditorView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7DD5F391AF56097DC155F7C657B31F3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9C89E3742A0B6D0109EE885B72EB4BB /* Bundle.swift */,
+				0DA279D14669546A4121B4622DE8CA32 /* Color.swift */,
+				28AAE38F51E7EB0B781E1B94ECF1D110 /* String.swift */,
+			);
+			name = Extensions;
+			path = MagentaRichEditorView/Classes/Core/Extensions;
+			sourceTree = "<group>";
+		};
+		CE5A3B41BE28F4B0AC94D609CE120799 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D249527162EA74403AD19AADF39906 /* MagentaRichEditorView.bundle */,
+				D0F6C537B41BF4B0F7F8BCF4ABD4B11C /* MagentaRichEditorView.framework */,
+				EBCFF7668F0C0666C453918D19C7820F /* MagentaRichEditorViewCustomToolbars.bundle */,
+				24AC903DC3790DCC449E447B7F87733C /* Pods_MagentaRichEditorView_Example.framework */,
+				E53A840391E4B380912EB79C6AAC3D0B /* Pods_MagentaRichEditorView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE4B83A31FEE814EDF60C5FD40645A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				359E7B8D42B59924B08A61016D7E1AEF /* MagentaRichEditorView.modulemap */,
+				4E8B1445F317AD13C89E9D837C7A6D28 /* MagentaRichEditorView-dummy.m */,
+				222CD19FE84B29459F8CF1BF42C3B3A0 /* MagentaRichEditorView-Info.plist */,
+				4F03E8A068B7F5CAAF6C24F4D11BB09A /* MagentaRichEditorView-prefix.pch */,
+				4A0A19BECFDCACC94DC134EF5EFEB098 /* MagentaRichEditorView-umbrella.h */,
+				4DEC2B87D04B6B7D5A5F60C7ED080169 /* MagentaRichEditorView.debug.xcconfig */,
+				EA3DFEF2BB72CCE7C854D39FEA1E2E2F /* MagentaRichEditorView.release.xcconfig */,
+				C538EB474C98C9C5D9F54BB123588133 /* ResourceBundle-MagentaRichEditorView-MagentaRichEditorView-Info.plist */,
+				0E14C49957150E0AB7E0E15394732376 /* ResourceBundle-MagentaRichEditorViewCustomToolbars-MagentaRichEditorView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MagentaRichEditorView";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				25D81D862136E40AB07B4082DB6B16BF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CE5A3B41BE28F4B0AC94D609CE120799 /* Products */,
+				9C01319F9310A6C6F2F910CEF77A156E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5872E1F44CBD2D50773F1B8AAF10BE5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				66C46EF1E2502D26712F6F0A0298E5B9 /* Common */,
+				73E01515E3277E23A62B171EE39D66FF /* Delegates */,
+				ED5CE0B13A534001D7BB192E9EC601FA /* editor */,
+				A7DD5F391AF56097DC155F7C657B31F3 /* Extensions */,
+				0C8FA17EC09AA9E0CC84EBF7289EEA52 /* icons */,
+				FBB92C727924F3B8DE48235A790DE54A /* Options */,
+				0EC2CB4BB2D91E320F60715837321381 /* Views */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E74CD0F1A5FE90DD0D737FE9718A3A06 /* RichEditorView */ = {
+			isa = PBXGroup;
+			children = (
+				C19372DBC78DBFE0C3533A40762F997B /* RichEditorView.swift */,
+				38CF5C33CD5727ECE256F4269C1767A5 /* RichEditorView+Actions.swift */,
+				0F0E0431C875408090DF41E041E339FA /* RichEditorView+Toolbar.swift */,
+				02D85B1361D677F933F16FB8908585C2 /* RichEditorView+UIScrollViewDelegate.swift */,
+				EE92A88020F1F52C9635CBD824C4A0A7 /* RichEditorView+Utils.swift */,
+				D4E116C727F75BEE3D222BF1A08FC70B /* RichEditorView+WKNavigationDelegate.swift */,
+				E059DE137E2743C9F3F8055F3F8A7139 /* RichEditorView+WKScriptMessageHandler.swift */,
+			);
+			name = RichEditorView;
+			path = RichEditorView;
+			sourceTree = "<group>";
+		};
+		ED5CE0B13A534001D7BB192E9EC601FA /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				F232F18E56D0B11E7FFD52C13571647B /* jQuery.js */,
+				162E73B440731EC3BA6189BE7C46F985 /* JSBeautifier.js */,
+				3FB083D5356489A784011D77DDAB06CA /* normalize.css */,
+				F824482229BAE2188AF12E93D8801FE3 /* rich_editor.html */,
+				6CF6ACCF179F7FFC4E8BE63E2B5A4040 /* rich_editor.js */,
+				0D28159AB8A7F675FE5752ADDCFED4E6 /* style.css */,
+			);
+			name = editor;
+			path = MagentaRichEditorView/Assets/Core/editor;
+			sourceTree = "<group>";
+		};
+		F69EDDC2A9CBA7026D08E59C9E2AFF31 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				553476E1CF7E1358E7767DBD754C351B /* CustomToolbarButton.swift */,
+			);
+			name = Common;
+			path = MagentaRichEditorView/Classes/CustomToolbars/Common;
+			sourceTree = "<group>";
+		};
+		FBB92C727924F3B8DE48235A790DE54A /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				38B1A29E3ECD895DF449CCF50419D8D7 /* RichEditorDefaultOption.swift */,
+				603C074FEE60C008684DC0CA5A663E57 /* RichEditorOption.swift */,
+				0DC90C7A63479380F4565293FD0F3DCC /* RichEditorOptionItem.swift */,
+			);
+			name = Options;
+			path = MagentaRichEditorView/Classes/Core/Options;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E769D464D5E8765C28E7A291538DA8B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FDEF6EC61387EF94CA947A334FB4B4 /* Pods-MagentaRichEditorView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A849B1F13FB945625BE4877C0E8729 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896BA6595A18248A2FDE3DC89B7BB9E /* Pods-MagentaRichEditorView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC861EDFF024B8C820FD2BAD636E7B55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3CCE1B06D15AFB0C416857C6E42260 /* MagentaRichEditorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F7C53A11A855C5090C17499D57C793F /* MagentaRichEditorView-MagentaRichEditorViewCustomToolbars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB966DE866CFAD64CE1862F842A7B499 /* Build configuration list for PBXNativeTarget "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars" */;
+			buildPhases = (
+				ED7CA14621CD44A8942D289F105A01B0 /* Sources */,
+				E3BABE24839903BC87E06CB5991BDD1F /* Frameworks */,
+				7F5E22A4BE3C07B30E8F46FD53B4C728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars";
+			productName = "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars";
+			productReference = EBCFF7668F0C0666C453918D19C7820F /* MagentaRichEditorViewCustomToolbars.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		781675E96DB555BA951DF403246DAD76 /* MagentaRichEditorView-MagentaRichEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8183FE5797DE29C6C49CE81F6A0CF20F /* Build configuration list for PBXNativeTarget "MagentaRichEditorView-MagentaRichEditorView" */;
+			buildPhases = (
+				AA76493CAB384CC8B3096526409A91D2 /* Sources */,
+				DA40F0DCD9B391B3269BE75A3E639005 /* Frameworks */,
+				1DF05EE239387008481EB1749F2F5BBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MagentaRichEditorView-MagentaRichEditorView";
+			productName = "MagentaRichEditorView-MagentaRichEditorView";
+			productReference = 46D249527162EA74403AD19AADF39906 /* MagentaRichEditorView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		81C8B44D6E9D121D2B2F14E9A02297E7 /* MagentaRichEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC764BD30ED3AFFF2E7D154508A4144 /* Build configuration list for PBXNativeTarget "MagentaRichEditorView" */;
+			buildPhases = (
+				FC861EDFF024B8C820FD2BAD636E7B55 /* Headers */,
+				FBC764C4EF0332842BAEA0EDD9CBAB38 /* Sources */,
+				3DF915BDF00F2512B20E55C55EB47684 /* Frameworks */,
+				D5D41493A09FDEE1618C81C5369EB473 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14AA7A1022AA9D3854B80B14621906FC /* PBXTargetDependency */,
+				9A1AAC042C7B7DCBB34E9239053BFC47 /* PBXTargetDependency */,
+			);
+			name = MagentaRichEditorView;
+			productName = MagentaRichEditorView;
+			productReference = D0F6C537B41BF4B0F7F8BCF4ABD4B11C /* MagentaRichEditorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A37839275720F802064E7D154EF29E96 /* Pods-MagentaRichEditorView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91C4630C9D904DE152401D25670501B5 /* Build configuration list for PBXNativeTarget "Pods-MagentaRichEditorView_Tests" */;
+			buildPhases = (
+				37A849B1F13FB945625BE4877C0E8729 /* Headers */,
+				2549710A4A2AB608B751C1253FA3CE74 /* Sources */,
+				015629E424F151FC673B0DDEDBAC1FF7 /* Frameworks */,
+				A2981C44BC596F0487B55F565A2332C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E9558D96B94FE4A61519AA7F4F8074 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagentaRichEditorView_Tests";
+			productName = "Pods-MagentaRichEditorView_Tests";
+			productReference = E53A840391E4B380912EB79C6AAC3D0B /* Pods_MagentaRichEditorView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB1ADA599B0AA6745FCCC36A57727C2C /* Pods-MagentaRichEditorView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5452810A7ABB46533A8C336EBCC4936B /* Build configuration list for PBXNativeTarget "Pods-MagentaRichEditorView_Example" */;
+			buildPhases = (
+				0E769D464D5E8765C28E7A291538DA8B /* Headers */,
+				FD77F4F521474CBC918CCB8BCFA02BE3 /* Sources */,
+				68BA66C30DC198B7B78887622E4D7488 /* Frameworks */,
+				5933C6DFF19B5BA11EA2E457604D5F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7713B4C638C08979C0175FA9A5B7BEF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MagentaRichEditorView_Example";
+			productName = "Pods-MagentaRichEditorView_Example";
+			productReference = 24AC903DC3790DCC449E447B7F87733C /* Pods_MagentaRichEditorView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CE5A3B41BE28F4B0AC94D609CE120799 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C8B44D6E9D121D2B2F14E9A02297E7 /* MagentaRichEditorView */,
+				781675E96DB555BA951DF403246DAD76 /* MagentaRichEditorView-MagentaRichEditorView */,
+				6F7C53A11A855C5090C17499D57C793F /* MagentaRichEditorView-MagentaRichEditorViewCustomToolbars */,
+				BB1ADA599B0AA6745FCCC36A57727C2C /* Pods-MagentaRichEditorView_Example */,
+				A37839275720F802064E7D154EF29E96 /* Pods-MagentaRichEditorView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF05EE239387008481EB1749F2F5BBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E6AA245FCD3EC337B22C3BA58711E5 /* bg_color.png in Resources */,
+				57876B6283BD31ACA0B92AFB08174FC5 /* bg_color@2x.png in Resources */,
+				56E1242BE8F5635C3CCBFE00BAE7C102 /* bold.png in Resources */,
+				E6D1E623BE2F46A56D3F9E0807420307 /* bold@2x.png in Resources */,
+				9C3CF4E439B3F99F2B25578D6FDBAE4A /* clear.png in Resources */,
+				C07E18ACDCCC372DFDCC9375049E34B6 /* clear@2x.png in Resources */,
+				DD8979C6A7602D9A41974163B734A29B /* h1.png in Resources */,
+				07E0BF2E544C1A089EAAABD1D76A536C /* h1@2x.png in Resources */,
+				A274D2ED1CD568C3B94440CFF8DC1448 /* h2.png in Resources */,
+				5EE637719E5212597684D99B5C728F95 /* h2@2x.png in Resources */,
+				21469576D01CF020D61A209BB6B537D8 /* h3.png in Resources */,
+				100331E00B595BC20A412596F5867C5A /* h3@2x.png in Resources */,
+				12044738B9049CC104D6704321EBE96A /* h4.png in Resources */,
+				4111700AC69E54FCDDF6333EFD99D136 /* h4@2x.png in Resources */,
+				8CA74A497DC3CA5EC390E85C96015227 /* h5.png in Resources */,
+				DE38F8E46287F8D1C875D7C84F5F0839 /* h5@2x.png in Resources */,
+				3914C22C5AC6D5061326FCE3A6F81EEF /* h6.png in Resources */,
+				1AEA23F1BF8258C3A09A4D7ED6382265 /* h6@2x.png in Resources */,
+				9BAB4163D583ED6033C0D57138D387A8 /* indent.png in Resources */,
+				8300E46F98D658BB38B8D76F4C613FA7 /* indent@2x.png in Resources */,
+				B63AEBCEBF384849394B1E9FB93690E9 /* insert_image.png in Resources */,
+				F25A06D4A19DED69C81BCDAEFE0B2C10 /* insert_image@2x.png in Resources */,
+				5A16B7DC6223EEC8C166666659D8F31B /* insert_link.png in Resources */,
+				0C548F79E805CF663758F0FEDB8B4736 /* insert_link@2x.png in Resources */,
+				2A91A084E91EECC0349A6103202697DE /* italic.png in Resources */,
+				C1ACA621922544B3DD3D58C459189DAF /* italic@2x.png in Resources */,
+				B9D30F7303A702042A421E69EA4DF717 /* jQuery.js in Resources */,
+				5E61AB314D7C49D27641A00B5B73AFD8 /* JSBeautifier.js in Resources */,
+				345D94AADFABCD26E138CB74482805AF /* justify_center.png in Resources */,
+				C164711FE1651989DB613744CE844624 /* justify_center@2x.png in Resources */,
+				6994E3E446FA8143AE6E758F95553C2A /* justify_left.png in Resources */,
+				20AE1220D5FC86359708AAFA067485DE /* justify_left@2x.png in Resources */,
+				EDA586D8DB74E234E602953BE7DEA036 /* justify_right.png in Resources */,
+				7B140EF27B662BB597B82CEC219D2EE2 /* justify_right@2x.png in Resources */,
+				849D304AA429D824C2A040A8A804E4E5 /* normalize.css in Resources */,
+				BF159003A94CA018A30AB7619681247A /* ordered_list.png in Resources */,
+				8BBF223914578D9395008330D306DA2B /* ordered_list@2x.png in Resources */,
+				12C4521C8F6BD85AC2F27DE7F5BED059 /* outdent.png in Resources */,
+				B76376D94786672439AD52E29CB6ACD6 /* outdent@2x.png in Resources */,
+				A31C7EDF9A5D916C1AA23EA8DBE6D80C /* redo.png in Resources */,
+				DA732DA82B6745A16030B536E7FC905E /* redo@2x.png in Resources */,
+				4A3854E35F2F2B14C59F047B4F724D67 /* rich_editor.html in Resources */,
+				EF5763B888773072C9AB046B8D089603 /* rich_editor.js in Resources */,
+				FA2E511F843EC6171E7816B01A363E39 /* strikethrough.png in Resources */,
+				7B69A51FB535B613F42DF86B74F0D802 /* strikethrough@2x.png in Resources */,
+				217A2DF6F0F807301E93F9F6A40E087A /* style.css in Resources */,
+				A3DBC68642D707A44EB569AE2CEBFB21 /* subscript.png in Resources */,
+				23D976C261DD59662561D68ED7C10172 /* subscript@2x.png in Resources */,
+				AB0EFFEAF3C612DB37B18F38F0515B17 /* superscript.png in Resources */,
+				EE47AA86859D15433B3ECD121AAA1C6C /* superscript@2x.png in Resources */,
+				19D4F822230FAAFE64AC24838CE665C2 /* text_color.png in Resources */,
+				9815EBE487BD663A2609E3AA09DEAAA1 /* text_color@2x.png in Resources */,
+				DA84540BA2682D063BB17C29D985832F /* underline.png in Resources */,
+				2E532AD6E6DF8D9C0802CAFF4676B611 /* underline@2x.png in Resources */,
+				5EB6225B84AD8301C9DAE95D12D6BE0D /* undo.png in Resources */,
+				9B324117094F5E2C41C82485D40A06F1 /* undo@2x.png in Resources */,
+				29918F18E808A59F1447D406143BFAF3 /* unordered_list.png in Resources */,
+				878964C632DD7AA84D05F7593D5A474B /* unordered_list@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5933C6DFF19B5BA11EA2E457604D5F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5E22A4BE3C07B30E8F46FD53B4C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8234291E996B8C5801C9F39EF5E2302 /* CustomIcons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2981C44BC596F0487B55F565A2332C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D41493A09FDEE1618C81C5369EB473 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0D6A8E47F22EBE9E1EBB3D308E31C22 /* MagentaRichEditorView.bundle in Resources */,
+				0935FEE6333D5DFCD1CD1934DD9DEADA /* MagentaRichEditorViewCustomToolbars.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2549710A4A2AB608B751C1253FA3CE74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D9BE9FF6A75739DE526092093E7417 /* Pods-MagentaRichEditorView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA76493CAB384CC8B3096526409A91D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7CA14621CD44A8942D289F105A01B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC764C4EF0332842BAEA0EDD9CBAB38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBD09E563E624DEC21878144C8F6885 /* Bundle+CustomToolbars.swift in Sources */,
+				D758849C9947A1E72197DB60729DC891 /* Bundle.swift in Sources */,
+				2BEA0D583EC10DA6A0A0A6C6CEE4AB5B /* Color.swift in Sources */,
+				2210E31C7F0B89BA4A9153356EB7C82A /* CustomToolbarButton.swift in Sources */,
+				737C507A6B52F6C5CE6EDC506DEF18C3 /* MagentaRichEditorView-dummy.m in Sources */,
+				95834DDA864D7700E95946E693589ABC /* OutlookAdditionOption.swift in Sources */,
+				D3FD1E543659A171F469BC330570039C /* OutlookAdditionOptionsView.swift in Sources */,
+				69FE6B9AE3448A96905119AAFEC9DACB /* OutlookEditorOptionIconView.swift in Sources */,
+				5F742285DE83DED8E3392AC16F944437 /* OutlookEditorOptionSelectableProtocol.swift in Sources */,
+				67E14FBC788084E1F19516CBD466A8E4 /* OutlookEditorOptionsView.swift in Sources */,
+				0141A778E7A27EA671E47F05FD20FF62 /* OutlookEditorOptionTextParams.swift in Sources */,
+				F25FD4C5906E65F8F068C19C6576FC04 /* OutlookEditorOptionTextView.swift in Sources */,
+				9A65B23BC6D6992D20C18854EE55C97A /* OutlookEditorSection.swift in Sources */,
+				DBE9744C9022721ABBA0D256155233BD /* OutlookEditorSectionOption.swift in Sources */,
+				D78BBFA5C12C20DC0BD580E0039FFC02 /* OutlookEditorSectionView.swift in Sources */,
+				5F75E18B5DFBF2F0B019887DB6CBF0B8 /* OutlookToolbar.swift in Sources */,
+				852727EDF49FC5133F5746A0D68B2418 /* RichBarButtonItem.swift in Sources */,
+				FF5CB7DE8F9EC90EE31C28DBABABDD18 /* RichEditorDefaultOption.swift in Sources */,
+				79EA4C3CB972F9FFB84B18C2961C93B6 /* RichEditorDelegate.swift in Sources */,
+				55BB184ECB1A956A44612F149E559EE1 /* RichEditorOption.swift in Sources */,
+				D1B287085FEE6B6E7B8F406A8083F29D /* RichEditorOptionItem.swift in Sources */,
+				3C080841173865DD66BD9504C9E17732 /* RichEditorToolbar.swift in Sources */,
+				4939B0F5D00C3B03634F58726086B87B /* RichEditorToolbarDelegate.swift in Sources */,
+				08A822D7E96D26DA86E72C40195DD848 /* RichEditorView+Actions.swift in Sources */,
+				56C9C9DAED6A2EE9A899FBE2678748C6 /* RichEditorView+Toolbar.swift in Sources */,
+				9B5345437434709DBFB9E09AE2C498DA /* RichEditorView+UIScrollViewDelegate.swift in Sources */,
+				CC3DE782E0C497F43D8A0916218BAC59 /* RichEditorView+Utils.swift in Sources */,
+				8DF5F80562A60A70100B38C86FE25760 /* RichEditorView+WKNavigationDelegate.swift in Sources */,
+				9058B0E49F2FFABEA8C3D33A2CDFFB72 /* RichEditorView+WKScriptMessageHandler.swift in Sources */,
+				EBBF7D0FEB16C0632B22A0AB58F9817D /* RichEditorView.swift in Sources */,
+				6A4E07CCF33BA456A576556B850C55AF /* RichEditorWebView.swift in Sources */,
+				DB08C8EB203686B808C2687DA2ED1CD0 /* String.swift in Sources */,
+				BC76810AC06696356DA6CABE77A8B7EE /* ToolbarActionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD77F4F521474CBC918CCB8BCFA02BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5713CC033D8185B50E39FCBD084D63 /* Pods-MagentaRichEditorView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E9558D96B94FE4A61519AA7F4F8074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MagentaRichEditorView_Example";
+			target = BB1ADA599B0AA6745FCCC36A57727C2C /* Pods-MagentaRichEditorView_Example */;
+			targetProxy = 0424B0277D1CD557D9E5B5BABC78CA8A /* PBXContainerItemProxy */;
+		};
+		14AA7A1022AA9D3854B80B14621906FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MagentaRichEditorView-MagentaRichEditorView";
+			target = 781675E96DB555BA951DF403246DAD76 /* MagentaRichEditorView-MagentaRichEditorView */;
+			targetProxy = DDE28FA536F5D57DE6ED1F8249299E0C /* PBXContainerItemProxy */;
+		};
+		7713B4C638C08979C0175FA9A5B7BEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MagentaRichEditorView;
+			target = 81C8B44D6E9D121D2B2F14E9A02297E7 /* MagentaRichEditorView */;
+			targetProxy = F8FBDA3559A8B6CF9B48BF1EC9043A31 /* PBXContainerItemProxy */;
+		};
+		9A1AAC042C7B7DCBB34E9239053BFC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars";
+			target = 6F7C53A11A855C5090C17499D57C793F /* MagentaRichEditorView-MagentaRichEditorViewCustomToolbars */;
+			targetProxy = DCACFB0A1BAAFB8B1584FA6BF952747C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06AD553F694D839731D3583E99B99CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3DFEF2BB72CCE7C854D39FEA1E2E2F /* MagentaRichEditorView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MagentaRichEditorView";
+				IBSC_MODULE = MagentaRichEditorView;
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/ResourceBundle-MagentaRichEditorView-MagentaRichEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = MagentaRichEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1D1D5ED1E39508426D4F9C6AD71DCBD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3DFEF2BB72CCE7C854D39FEA1E2E2F /* MagentaRichEditorView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView.modulemap";
+				PRODUCT_MODULE_NAME = MagentaRichEditorView;
+				PRODUCT_NAME = MagentaRichEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A899E161570B829ABCFCBA539361F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEC2B87D04B6B7D5A5F60C7ED080169 /* MagentaRichEditorView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MagentaRichEditorView";
+				IBSC_MODULE = MagentaRichEditorView;
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/ResourceBundle-MagentaRichEditorView-MagentaRichEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = MagentaRichEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		58642E1A0462B36E880F36338FF8AA7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEC2B87D04B6B7D5A5F60C7ED080169 /* MagentaRichEditorView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MagentaRichEditorView";
+				IBSC_MODULE = MagentaRichEditorView;
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/ResourceBundle-MagentaRichEditorViewCustomToolbars-MagentaRichEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = MagentaRichEditorViewCustomToolbars;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63E16C6C8F48EA1E918191C765E50FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEC2B87D04B6B7D5A5F60C7ED080169 /* MagentaRichEditorView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MagentaRichEditorView/MagentaRichEditorView.modulemap";
+				PRODUCT_MODULE_NAME = MagentaRichEditorView;
+				PRODUCT_NAME = MagentaRichEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		805887058B1651E2003BCA4034939315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91254B63C24B99C5DEE3A4798A8118B /* Pods-MagentaRichEditorView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagentaRichEditorView_Example/Pods-MagentaRichEditorView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagentaRichEditorView_Example/Pods-MagentaRichEditorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9E45F0CE781EFC908447EC7C092C6683 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C5AF4BC689122DC0CAC1336CFC3FB4 /* Pods-MagentaRichEditorView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagentaRichEditorView_Example/Pods-MagentaRichEditorView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagentaRichEditorView_Example/Pods-MagentaRichEditorView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD223574E692A35E3BF555742C990D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3DFEF2BB72CCE7C854D39FEA1E2E2F /* MagentaRichEditorView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MagentaRichEditorView";
+				IBSC_MODULE = MagentaRichEditorView;
+				INFOPLIST_FILE = "Target Support Files/MagentaRichEditorView/ResourceBundle-MagentaRichEditorViewCustomToolbars-MagentaRichEditorView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = MagentaRichEditorViewCustomToolbars;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D74FE02CE91EB7222C9D3443B8370B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1575E00E48A4CA09CC33749421F65B6F /* Pods-MagentaRichEditorView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagentaRichEditorView_Tests/Pods-MagentaRichEditorView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagentaRichEditorView_Tests/Pods-MagentaRichEditorView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E47AE21DD6E9B860AA87816E4869F541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8D674DBEB5AC2C284D22F6AEDED5EC /* Pods-MagentaRichEditorView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MagentaRichEditorView_Tests/Pods-MagentaRichEditorView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MagentaRichEditorView_Tests/Pods-MagentaRichEditorView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC764BD30ED3AFFF2E7D154508A4144 /* Build configuration list for PBXNativeTarget "MagentaRichEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E16C6C8F48EA1E918191C765E50FE4 /* Debug */,
+				1D1D5ED1E39508426D4F9C6AD71DCBD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5452810A7ABB46533A8C336EBCC4936B /* Build configuration list for PBXNativeTarget "Pods-MagentaRichEditorView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E45F0CE781EFC908447EC7C092C6683 /* Debug */,
+				805887058B1651E2003BCA4034939315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8183FE5797DE29C6C49CE81F6A0CF20F /* Build configuration list for PBXNativeTarget "MagentaRichEditorView-MagentaRichEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A899E161570B829ABCFCBA539361F3E /* Debug */,
+				06AD553F694D839731D3583E99B99CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91C4630C9D904DE152401D25670501B5 /* Build configuration list for PBXNativeTarget "Pods-MagentaRichEditorView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74FE02CE91EB7222C9D3443B8370B59 /* Debug */,
+				E47AE21DD6E9B860AA87816E4869F541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB966DE866CFAD64CE1862F842A7B499 /* Build configuration list for PBXNativeTarget "MagentaRichEditorView-MagentaRichEditorViewCustomToolbars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58642E1A0462B36E880F36338FF8AA7B /* Debug */,
+				CD223574E692A35E3BF555742C990D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

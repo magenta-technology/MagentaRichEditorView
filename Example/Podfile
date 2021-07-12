@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MagentaRichEditorView_Example' do
+  pod 'MagentaRichEditorView/CustomToolbars', :path => '../'
+
+  target 'MagentaRichEditorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

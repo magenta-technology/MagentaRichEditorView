@@ -1,0 +1,6 @@
+framework module Pods_MagentaRichEditorView_Example {
+  umbrella header "Pods-MagentaRichEditorView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

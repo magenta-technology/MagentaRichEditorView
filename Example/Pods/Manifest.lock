@@ -1,0 +1,18 @@
+PODS:
+  - MagentaRichEditorView/Core (0.6.0)
+  - MagentaRichEditorView/CustomToolbars (0.6.0):
+    - MagentaRichEditorView/Core
+
+DEPENDENCIES:
+  - MagentaRichEditorView/CustomToolbars (from `../`)
+
+EXTERNAL SOURCES:
+  MagentaRichEditorView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MagentaRichEditorView: bd5fe39d76785aeb39250cf83f8ca40c004950bd
+
+PODFILE CHECKSUM: 4178fc5e60324d31cb1449e9b2dd8d91c203aad9
+
+COCOAPODS: 1.10.0
